@@ -1,0 +1,182 @@
+{
+ "cal-01": {
+  "item_id": "text-5d687c",
+  "run": "s1_dev_20261026-231449",
+  "judge_score": 5,
+  "judge_pass": true
+ },
+ "cal-02": {
+  "item_id": "text-3d7fd8",
+  "run": "s3_dev_20261026-232445",
+  "judge_score": 5,
+  "judge_pass": true
+ },
+ "cal-03": {
+  "item_id": "text-c29c96",
+  "run": "v0-small_dev_20261026-225227",
+  "judge_score": 5,
+  "judge_pass": true
+ },
+ "cal-04": {
+  "item_id": "text-c25a8e",
+  "run": "s5_dev_20261026-234805",
+  "judge_score": 5,
+  "judge_pass": true
+ },
+ "cal-05": {
+  "item_id": "text-c29c96",
+  "run": "s3_dev_20261026-232445",
+  "judge_score": 5,
+  "judge_pass": true
+ },
+ "cal-06": {
+  "item_id": "text-79530b",
+  "run": "s5_dev_20261026-234805",
+  "judge_score": 4,
+  "judge_pass": true
+ },
+ "cal-07": {
+  "item_id": "text-b37033",
+  "run": "s2_dev_20261026-231655",
+  "judge_score": 5,
+  "judge_pass": true
+ },
+ "cal-08": {
+  "item_id": "text-6550da",
+  "run": "v0_dev_20261026-225136",
+  "judge_score": 5,
+  "judge_pass": true
+ },
+ "cal-09": {
+  "item_id": "text-ce3dc7",
+  "run": "v0_dev_20261026-225136",
+  "judge_score": 5,
+  "judge_pass": true
+ },
+ "cal-10": {
+  "item_id": "text-be76d2",
+  "run": "s3_dev_20261026-232445",
+  "judge_score": 5,
+  "judge_pass": true
+ },
+ "cal-11": {
+  "item_id": "text-46c8d4",
+  "run": "s1_dev_20261026-231449",
+  "judge_score": 5,
+  "judge_pass": true
+ },
+ "cal-12": {
+  "item_id": "text-f42d67",
+  "run": "v0-small_dev_20261026-225227",
+  "judge_score": 5,
+  "judge_pass": true
+ },
+ "cal-13": {
+  "item_id": "text-5d687c",
+  "run": "s7_dev_20261026-235218",
+  "judge_score": 5,
+  "judge_pass": true
+ },
+ "cal-14": {
+  "item_id": "text-c25a8e",
+  "run": "v0_dev_20261026-225136",
+  "judge_score": 3,
+  "judge_pass": false
+ },
+ "cal-15": {
+  "item_id": "text-aac614",
+  "run": "s3_dev_20261026-232445",
+  "judge_score": 4,
+  "judge_pass": true
+ },
+ "cal-16": {
+  "item_id": "text-c06015",
+  "run": "v0-small_dev_20261026-225227",
+  "judge_score": 5,
+  "judge_pass": true
+ },
+ "cal-17": {
+  "item_id": "text-83d302",
+  "run": "s1_dev_20261026-231449",
+  "judge_score": 5,
+  "judge_pass": true
+ },
+ "cal-18": {
+  "item_id": "text-f42d67",
+  "run": "s2_dev_20261026-231655",
+  "judge_score": 5,
+  "judge_pass": true
+ },
+ "cal-19": {
+  "item_id": "text-ce3dc7",
+  "run": "s4_dev_20261026-232638",
+  "judge_score": 5,
+  "judge_pass": true
+ },
+ "cal-20": {
+  "item_id": "text-4181ba",
+  "run": "s3_dev_20261026-232445",
+  "judge_score": 5,
+  "judge_pass": true
+ },
+ "cal-21": {
+  "item_id": "text-be76d2",
+  "run": "s1_dev_20261026-231449",
+  "judge_score": 3,
+  "judge_pass": false
+ },
+ "cal-22": {
+  "item_id": "text-99b505",
+  "run": "s1_dev_20261026-231449",
+  "judge_score": 3,
+  "judge_pass": false
+ },
+ "cal-23": {
+  "item_id": "text-c29c96",
+  "run": "s4_dev_20261026-232638",
+  "judge_score": 5,
+  "judge_pass": true
+ },
+ "cal-24": {
+  "item_id": "text-902348",
+  "run": "s5_dev_20261026-234805",
+  "judge_score": 5,
+  "judge_pass": true
+ },
+ "cal-25": {
+  "item_id": "text-78f196",
+  "run": "s3_dev_20261026-232445",
+  "judge_score": 5,
+  "judge_pass": true
+ },
+ "cal-26": {
+  "item_id": "text-f42d67",
+  "run": "s7_dev_20261026-235218",
+  "judge_score": 5,
+  "judge_pass": true
+ },
+ "cal-27": {
+  "item_id": "text-c29c96",
+  "run": "v0_dev_20261026-225136",
+  "judge_score": 5,
+  "judge_pass": true
+ },
+ "cal-28": {
+  "item_id": "text-e25a5e",
+  "run": "s1_dev_20261026-231449",
+  "judge_score": 5,
+  "judge_pass": true
+ },
+ "cal-29": {
+  "item_id": "text-c25a8e",
+  "run": "v0-small_dev_20261026-225227",
+  "judge_score": 5,
+  "judge_pass": true
+ },
+ "cal-30": {
+  "item_id": "text-99b505",
+  "run": "v0_dev_20261026-225136",
+  "judge_score": 4,
+  "judge_pass": true
+ }
+}

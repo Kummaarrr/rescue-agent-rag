@@ -1,0 +1,17 @@
+# Corpus companies. CIKs are resolved at runtime from the SEC ticker map.
+# fiscal_year_end is MM-DD (approximate; the XBRL period end date is authoritative).
+filings_per_company: 3
+form: 10-K
+companies:
+  - {ticker: AAPL, name: Apple, fiscal_year_end: "09-30"}
+  - {ticker: MSFT, name: Microsoft, fiscal_year_end: "06-30"}
+  - {ticker: NVDA, name: NVIDIA, fiscal_year_end: "01-31"}
+  - {ticker: AMZN, name: Amazon, fiscal_year_end: "12-31"}
+  - {ticker: JPM, name: JPMorgan Chase, fiscal_year_end: "12-31"}
+  - {ticker: UNH, name: UnitedHealth Group, fiscal_year_end: "12-31"}
+  - {ticker: JNJ, name: Johnson & Johnson, fiscal_year_end: "12-31"}
+  # The ticker map points XOM to ExxonMobil Holdings Corp (new holding company, no 10-Ks yet);
+  # the historical 10-Ks are filed by Exxon Mobil Corp.
+  - {ticker: XOM, name: Exxon Mobil, fiscal_year_end: "12-31", cik: 34088}
+  - {ticker: WMT, name: Walmart, fiscal_year_end: "01-31"}
+  - {ticker: KO, name: Coca-Cola, fiscal_year_end: "12-31"}

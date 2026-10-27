@@ -1,0 +1,9 @@
+{
+  "n": 30,
+  "agreement": 0.9,
+  "cohens_kappa": 0.34782608695652134,
+  "judge_pass_human_fail": 1,
+  "judge_fail_human_pass": 2,
+  "both_pass": 26,
+  "both_fail": 1
+}

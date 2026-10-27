@@ -1,0 +1,21 @@
+# Reviewer fixes for generated text questions. Keyed by the generated question text, so they
+# survive re-numbering. Either `new_question` (reword) or `drop: true` (exclude; a spare
+# candidate takes its place).
+
+# Review round 1 (26 Oct 2026)
+- question: "According to Johnson & Johnson's fiscal year 2023 10-K, before what date does the company not anticipate the launch of a biosimilar version of STELARA in the United States?"
+  # Round 2: the round-1 rewording ("earliest date ... anticipates ... could launch") overstated
+  # the evidence, which gives a floor, not an anticipated launch date.
+  new_question: "According to Johnson & Johnson's fiscal year 2023 10-K, before what date does the company say it does not anticipate a U.S. launch of a biosimilar version of STELARA?"
+  reason: "round 1: awkward double negative; round 2: keep the floor semantics"
+
+# Review round 2 (26 Oct 2026)
+- question: "In fiscal year 2025, which countries' bottling operations did Coca-Cola refranchise, contributing to the decrease in its Bottling Investments segment operating income?"
+  new_question: "According to Coca-Cola's fiscal year 2025 10-K, where did Coca-Cola refranchise bottling operations, contributing to the decrease in its Bottling Investments segment operating income?"
+  reason: "'certain territories in India' is not a country"
+- question: "In fiscal year 2025, which constitutional amendments did Johnson & Johnson's subsidiary Janssen claim the IRA's Medicare Drug Price Negotiation Program violates in its litigation against HHS and CMS?"
+  new_question: "According to Johnson & Johnson's fiscal year 2025 10-K, which constitutional amendments does its subsidiary Janssen claim the IRA's Medicare Drug Price Negotiation Program violates, in its litigation against HHS and CMS?"
+  reason: "the lawsuit was filed in July 2023; tie the question to the FY2025 10-K instead"
+- question: "In its fiscal year 2026 Form 10-K risk factors, which acquisition does Microsoft cite as an example of its acquisitions, and when was it completed?"
+  drop: true
+  reason: "found in the v0 run: the filing cites two acquisitions (Nuance and Activision), so 'which acquisition' is ambiguous"

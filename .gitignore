@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+*.key
+*.pem
+
+# Data and artifacts (download via scripts, never commit raw documents)
+data/raw/
+data/processed/
+qdrant_storage/
+*.parquet
+*.pdf
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Data (keep README + manifest)
+data/xbrl/
+data/cache/
+

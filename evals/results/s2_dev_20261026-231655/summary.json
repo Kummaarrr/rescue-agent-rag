@@ -1,0 +1,24 @@
+{
+  "n": 100,
+  "errors": 0,
+  "accuracy_by_type": {
+    "comparison": 0.7,
+    "factual_text": 0.9629629629629629,
+    "numeric_compute": 0.9230769230769231,
+    "numeric_lookup": 1.0,
+    "unanswerable": 0.95
+  },
+  "numeric_accuracy": 0.9767441860465116,
+  "text_pass_rate": 0.9629629629629629,
+  "overall_accuracy": 0.94,
+  "hallucination_rate_unanswerable": 0.05,
+  "false_abstain_rate_answerable": 0.025,
+  "abstain_f1": 0.9268292682926829,
+  "doc_recall": 0.9125,
+  "evidence_recall": 0.9125,
+  "faithfulness": null,
+  "latency_p50_s": 1.7611434999962512,
+  "latency_p95_s": 3.928149499999563,
+  "cost_per_1000_queries_usd": 0.6893292,
+  "run_id": "s2_dev_20261026-231655"
+}

@@ -1,0 +1,30 @@
+# Pipeline settings. Each rescue-ladder step has a feature flag so every step can be measured on its own.
+paths:
+  raw: data/raw
+  xbrl: data/xbrl
+  processed: data/processed
+  manifest: data/manifest.csv
+
+sec:
+  max_requests_per_second: 8   # SEC fair-access limit is 10
+  timeout_seconds: 30
+
+baseline:
+  chunk_tokens: 1000
+  chunk_overlap: 100
+  top_k: 5
+
+ladder:
+  s1_structure_parsing: false
+  s2_table_chunks: false
+  s3_hybrid_retrieval: false
+  s4_query_filters: false
+  s5_rerank: false          # "cross_encoder" | "llm" | false
+  s6_decomposition: false
+  s7_calculator: false
+  s8_grounded_answers: false
+  s9_routing_cache: false
+
+retrieval:
+  candidates: 30
+  final_k: 8

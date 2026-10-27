@@ -1,0 +1,7 @@
+# Claude models (Anthropic API). IDs checked against the Models API in Phase 0.
+small_model: claude-haiku-5-5    # query understanding, simple answers, routing, table summaries
+large_model: claude-opus-5-5     # complex synthesis; also v0's "one model for everything"
+judge_model: claude-opus-5-5     # evaluation judge (calibrated against human labels)
+# Anthropic has no embeddings API; Voyage AI is used (first 200M tokens free).
+embedding_model: voyage-3.5       # 1024-dim, 32K-token input
+reranker_model: null             # local cross-encoder, chosen in Phase 4 by CPU latency

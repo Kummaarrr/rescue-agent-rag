@@ -1,0 +1,62 @@
+AMZN_FY2023 rnd: no matching fact
+AMZN_FY2023 total_liabilities: no matching fact
+AMZN_FY2024 rnd: no matching fact
+AMZN_FY2024 total_liabilities: no matching fact
+AMZN_FY2025 rnd: no matching fact
+AMZN_FY2025 total_liabilities: no matching fact
+JNJ_FY2023 operating_income: no matching fact
+JNJ_FY2023 equity: no matching fact
+JNJ_FY2024 operating_income: no matching fact
+JNJ_FY2024 equity: no matching fact
+JNJ_FY2025 operating_income: no matching fact
+JNJ_FY2025 equity: no matching fact
+JPM_FY2023 operating_income: no matching fact
+JPM_FY2023 rnd: no matching fact
+JPM_FY2023 cash: no matching fact
+JPM_FY2024 operating_income: no matching fact
+JPM_FY2024 rnd: no matching fact
+JPM_FY2024 cash: no matching fact
+JPM_FY2025 operating_income: no matching fact
+JPM_FY2025 rnd: no matching fact
+JPM_FY2025 cash: no matching fact
+KO_FY2023 rnd: no matching fact
+KO_FY2023 total_liabilities: no matching fact
+KO_FY2024 rnd: no matching fact
+KO_FY2024 total_liabilities: no matching fact
+KO_FY2025 rnd: no matching fact
+KO_FY2025 total_liabilities: no matching fact
+UNH_FY2023 rnd: no matching fact
+UNH_FY2023 equity: no matching fact
+UNH_FY2024 rnd: no matching fact
+UNH_FY2024 equity: no matching fact
+UNH_FY2025 rnd: no matching fact
+UNH_FY2025 equity: no matching fact
+WMT_FY2024 rnd: no matching fact
+WMT_FY2024 total_liabilities: no matching fact
+WMT_FY2025 rnd: no matching fact
+WMT_FY2025 total_liabilities: no matching fact
+WMT_FY2026 rnd: no matching fact
+WMT_FY2026 total_liabilities: no matching fact
+XOM_FY2023 operating_income: no matching fact
+XOM_FY2024 operating_income: no matching fact
+XOM_FY2025 operating_income: no matching fact
+MSFT_FY2026 Item 1A: dropped by reviewer - found in the v0 run: the filing cites two acquisitions (Nuance and Activision), so 'which acquisition' is ambiguous
+WMT_FY2025 Item 1: rejected - evidence does not support answer (The excerpts do not attribute the 29 dedicated eCommerce fulfillment centers to the Walmart U.S. segment. The third excerpt says "We ship ... from our 29 dedicated eCommerce fulfillment centers", and "we" is Walmart as a whole. The other excerpts only give Walmart U.S. store count and net sales. The question's premise and the reference answer therefore both assume a segment-level figure that the evidence does not state.)
+XOM_FY2023 Item 1A: dropped - near-duplicate of an earlier question
+WMT_FY2025 Item 7: rejected - evidence does not support answer (The excerpts do not state that they concern the Sam's Club segment; the question's premise and the answer's attribution to Sam's Club are not in the quotes. Also, the quotes say 'increased margins in fuel', which the answer paraphrases as 'increased fuel margins' (acceptable).)
+WMT_FY2024 Item 1A: rejected - wording issue (The question asks for plural 'reasons' but the evidence gives only one for food products (a source of foodborne illness). The question also conflates the causal structure: the excerpts say quality fails to meet expectations and, separately, products are often subject to regulatory action or recall; the foodborne illness clause is the example of why. The plural 'reasons' mismatches the single reason in the evidence.)
+NVDA_FY2026 Item 1: grounded, not needed
+UNH_FY2023 Item 1: grounded, not needed
+WMT_FY2026 Item 7: grounded, not needed
+AAPL_FY2024 Item 7: valid draft, not needed
+AMZN_FY2025 Item 1: valid draft, not needed
+JNJ_FY2025 Item 1A: valid draft, not needed
+JPM_FY2025 Item 1: valid draft, not needed
+KO_FY2025 Item 1: valid draft, not needed
+MSFT_FY2025 Item 1: valid draft, not needed
+NVDA_FY2025 Item 1: valid draft, not needed
+UNH_FY2024 Item 7: valid draft, not needed
+WMT_FY2024 Item 1: valid draft, not needed
+AAPL_FY2023 Item 1: valid draft, not needed
+AMZN_FY2023 Item 7: valid draft, not needed
+JNJ_FY2025 Item 7: valid draft, not needed

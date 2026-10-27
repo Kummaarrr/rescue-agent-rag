@@ -1,0 +1,10 @@
+{
+  "run": "v1_test_20261027-000433_rep1",
+  "n": 20,
+  "ragas_version": "0.4.3",
+  "faithfulness": 0.9545833333333335,
+  "llm_context_precision_with_reference": 0.7511090769645404,
+  "context_recall": 1.0,
+  "judge": "claude-opus-5-5",
+  "api_spend_usd": 4.1986
+}
