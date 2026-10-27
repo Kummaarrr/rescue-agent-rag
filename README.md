@@ -4,6 +4,8 @@ A RAG system over 30 SEC 10-K filings, taken from a naive prototype to a product
 pipeline - with every change measured on a 150-question evaluation set whose numeric answers
 are checked against the SEC's own XBRL data.
 
+**Live demo:** https://rescue-agent-rag-6sfamzzqec86xtvvtnhg29.streamlit.app/ · **Write-up:** [docs/REPORT.md](docs/REPORT.md)
+
 ## The story
 
 1. **v0 - the tutorial prototype.** Fixed 1,000-token chunks, vector top-5, one generic prompt.
@@ -58,7 +60,7 @@ limitations: [docs/REPORT.md](docs/REPORT.md). Architecture:
 
 ## Live demo
 
-**[Demo link - added after deployment]** - compare v0 and v1 on highlighted examples, browse all
+**[Open the demo](https://rescue-agent-rag-6sfamzzqec86xtvvtnhg29.streamlit.app/)** - compare v0 and v1 on highlighted examples, browse all
 150 evaluation questions with every system's answer (misses included), or ask v1 your own
 question with your own Anthropic API key (the demo holds no key of its own; your key is used
 only for that request and never stored).

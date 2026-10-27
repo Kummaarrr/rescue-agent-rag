@@ -184,7 +184,7 @@ def ask_tab() -> None:
 
 
 def how_tab() -> None:
-    repo = os.environ.get("DEMO_REPO_URL", "")
+    repo = os.environ.get("DEMO_REPO_URL", "https://github.com/Kummaarrr/rescue-agent-rag")
     st.markdown(
         "**v1 pipeline (LangGraph):** understand the question (companies, fiscal years) -> "
         "retrieve per company from structure-aware chunks, filtered to the right filings -> "
